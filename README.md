@@ -15,5 +15,7 @@ double-bytes is 0. If the variable position is not the last doublebytes, then 0 
  case4:64-90   low bytes =>2001:0da8:0000:0000:[0000-ffff]:0000:0000:0000 or 2001:0da8:0000:0000:[0000-ffff]:0000:0000:0001
  case5:48-64   low bytes =>2001:0da8:0000:[0000-ffff]:0000:0000:0000:0000 or 2001:0da8:0000:[0000-ffff]:0000:0000:0000:0001
  case6:32-48   low bytes =>2001:0da8:[0000-ffff]:0000:0000:0000:0000:0000 or 2001:0da8:[0000-ffff]:0000:0000:0000:0000:0001
+ 
+ 
 runing example:
 python3 Random-Bytes.py --IPv6= local IPv6
