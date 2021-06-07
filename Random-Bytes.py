@@ -11,11 +11,11 @@ ipv6countALL=0
 def Random_LowBytes_Extend(bgp_prefix):
     '''
     Function:
-        probe the space of bgpPrefix used random lowbytes
+        probe the space of BGP prefix used random lowbytes
     Args:
-        bgp_prefix : the bgp prefix 
+        bgp_prefix : the target BGP prefix 
     Return:
-        the result store the file that named by bgp prefix
+        the result store the file that named by BGP prefix
 
     '''
     print("begin to probe in {} bgp prefix".format(bgp_prefix))
