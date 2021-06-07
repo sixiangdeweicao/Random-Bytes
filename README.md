@@ -1,12 +1,12 @@
 # Random-Bytes
-it generate candidate addresses in each BGP prefix  and prob in BGP list
+It generates candidate addresses and probes whether these addresses are active or not in each BGP prefix.
 
 According to these patterns, we design Random-Bytes algorithm based on BGP prefixes to collect active addresses.
 We define the 16 bits between two colons as double-bytes,
-so IPv6 addresses can be showed by 8 double-bytes. As the
+so IPv6 addresses can be showed by 8 double-byteses. As the
 algorithm runs, the variable double-bytes position shifts to the right in order, in double-bytes steps. The position of address
 in variable double-bytes is filled with 0000-ffff, and the other
-double-bytes is 0. If the variable position is not the last doublebytes, then 0 or 1 will be filled into the last double-bytes.
+double-bytes is 0. If the variable position is not the last double-bytes, then 0 or 1 will be filled into the last double-bytes.
 
  eg:2001:da8::/32
  
